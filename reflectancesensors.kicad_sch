@@ -843,6 +843,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LED:IR204A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0.508 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IR204A"
+				(at -1.016 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR204-A.pdf"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Infrared LED , 3mm LED package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "opto IR LED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*3.0mm*IRBlack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IR204A_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.413 1.651) (xy -0.889 3.175) (xy -0.889 2.667) (xy -0.889 3.175) (xy -1.397 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 1.651) (xy 0.381 3.175) (xy 0.381 2.667)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -2.54 0) (xy 0 -1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 3.175) (xy -0.127 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IR204A_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -921,6 +1108,226 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Sensor_Optical:BPW40"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BPW40"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
+				(at 12.192 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.rcscomponents.kiev.ua/datasheets/bpw40.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Phototransistor NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "npn phototransistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*D5.0mm*Clear*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BPW40_0_1"
+				(polyline
+					(pts
+						(xy -3.81 3.175) (xy -1.905 1.27) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 4.445) (xy -1.27 2.54) (xy -1.27 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BPW40_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -1794,6 +2201,12 @@
 		)
 	)
 	(junction
+		(at 138.43 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00285d14-2e22-4c5e-982c-c41d411c6be4")
+	)
+	(junction
 		(at 50.8 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1806,7 +2219,7 @@
 		(uuid "214fbd46-088a-40de-ab80-2eeba8c6a7ee")
 	)
 	(junction
-		(at 175.26 125.73)
+		(at 196.85 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36fd0041-ff9c-45a0-9449-7bab590796c8")
@@ -1824,17 +2237,35 @@
 		(uuid "8158cb58-8888-46e3-8375-663f10cebaa3")
 	)
 	(junction
-		(at 175.26 78.74)
+		(at 196.85 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb202461-e575-465c-9b28-fcc9442aac8a")
 	)
+	(junction
+		(at 166.37 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c470643c-755c-4efd-9051-8ed481ba50cc")
+	)
+	(junction
+		(at 167.64 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1cd8fbd-d5e8-4cfa-a24b-331f2c12d523")
+	)
+	(junction
+		(at 137.16 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e60021ad-7a26-4fce-a6c3-4e8704e37878")
+	)
 	(no_connect
-		(at 179.07 72.39)
+		(at 200.66 72.39)
 		(uuid "7c9383b5-7e9e-42a2-9e07-6f82eeb10219")
 	)
 	(no_connect
-		(at 179.07 119.38)
+		(at 200.66 119.38)
 		(uuid "a999e938-50d4-411f-bd27-3be0a9840566")
 	)
 	(wire
@@ -1849,6 +2280,26 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 111.76) (xy 166.37 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da614bd-adeb-4b24-8c2b-a348be5ea9c8")
+	)
+	(wire
+		(pts
+			(xy 180.34 111.76) (xy 186.69 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fac7d44-c9a6-4cf8-b654-004d3b2902a8")
+	)
+	(wire
+		(pts
 			(xy 87.63 73.66) (xy 95.25 73.66)
 		)
 		(stroke
@@ -1859,7 +2310,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 78.74) (xy 214.63 78.74)
+			(xy 196.85 78.74) (xy 236.22 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1869,7 +2320,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 68.58) (xy 175.26 78.74)
+			(xy 196.85 68.58) (xy 196.85 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1879,7 +2330,17 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 78.74) (xy 214.63 123.19)
+			(xy 167.64 62.23) (xy 167.64 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42dfc985-c7e2-4f02-bd49-62b9f4e20441")
+	)
+	(wire
+		(pts
+			(xy 236.22 78.74) (xy 236.22 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1899,7 +2360,17 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 115.57) (xy 175.26 125.73)
+			(xy 137.16 78.74) (xy 140.97 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5508f5e7-0db0-4622-8534-1d2e4c7cb4a4")
+	)
+	(wire
+		(pts
+			(xy 196.85 115.57) (xy 196.85 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1919,7 +2390,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 78.74) (xy 175.26 78.74)
+			(xy 156.21 78.74) (xy 167.64 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1929,7 +2400,17 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 59.69) (xy 179.07 64.77)
+			(xy 138.43 111.76) (xy 138.43 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72601a67-aff4-4de1-9683-30c3b8df46b8")
+	)
+	(wire
+		(pts
+			(xy 200.66 59.69) (xy 200.66 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1939,13 +2420,23 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 133.35) (xy 156.21 133.35)
+			(xy 200.66 133.35) (xy 156.21 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7522ee0a-c68c-43b6-a5d8-c35ecd0446ce")
+	)
+	(wire
+		(pts
+			(xy 153.67 111.76) (xy 158.75 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7556b6db-191e-4350-80c0-4dc71505ebc0")
 	)
 	(wire
 		(pts
@@ -1999,6 +2490,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 111.76) (xy 166.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9697e82c-7d08-441e-a158-7e87491a9a1d")
+	)
+	(wire
+		(pts
 			(xy 87.63 73.66) (xy 73.66 73.66)
 		)
 		(stroke
@@ -2006,6 +2507,36 @@
 			(type default)
 		)
 		(uuid "98f76f46-7b2c-4194-92a8-164b6e283034")
+	)
+	(wire
+		(pts
+			(xy 144.78 62.23) (xy 137.16 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e7a46d5-df98-46fa-8a26-b77886391d1d")
+	)
+	(wire
+		(pts
+			(xy 166.37 125.73) (xy 196.85 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a34ff214-21b4-4755-8d8d-f0fc2061bfff")
+	)
+	(wire
+		(pts
+			(xy 146.05 111.76) (xy 138.43 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aadf223f-d753-4454-b61c-db36df988151")
 	)
 	(wire
 		(pts
@@ -2019,7 +2550,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 125.73) (xy 140.97 125.73)
+			(xy 133.35 125.73) (xy 138.43 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2029,7 +2560,27 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 125.73) (xy 175.26 125.73)
+			(xy 137.16 62.23) (xy 137.16 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7cfe8d9-54a1-4f71-8152-f35a2df69385")
+	)
+	(wire
+		(pts
+			(xy 171.45 62.23) (xy 167.64 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b98aa907-d8db-4730-af7d-6247c5261eb3")
+	)
+	(wire
+		(pts
+			(xy 156.21 125.73) (xy 166.37 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2039,7 +2590,17 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 106.68) (xy 179.07 111.76)
+			(xy 152.4 62.23) (xy 157.48 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd77fd5e-4df8-4952-828b-90c6000c6e06")
+	)
+	(wire
+		(pts
+			(xy 200.66 106.68) (xy 200.66 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2079,7 +2640,37 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 86.36) (xy 156.21 86.36)
+			(xy 181.61 62.23) (xy 187.96 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f150ce47-962d-4e65-8bb8-e0e3a89f0dad")
+	)
+	(wire
+		(pts
+			(xy 167.64 78.74) (xy 196.85 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f16253dc-55f4-44a3-800c-535a8663f15f")
+	)
+	(wire
+		(pts
+			(xy 138.43 125.73) (xy 140.97 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f350e186-6f1b-4154-adfc-d412a9ef9880")
+	)
+	(wire
+		(pts
+			(xy 200.66 86.36) (xy 156.21 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2099,7 +2690,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 125.73) (xy 214.63 125.73)
+			(xy 196.85 125.73) (xy 236.22 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2109,7 +2700,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 78.74) (xy 140.97 78.74)
+			(xy 133.35 78.74) (xy 137.16 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2119,7 +2710,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_Trim_US")
-		(at 179.07 68.58 180)
+		(at 200.66 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2127,7 +2718,7 @@
 		(dnp no)
 		(uuid "14790df7-3212-46b5-b0a2-c21b9087eb57")
 		(property "Reference" "RV1"
-			(at 185.42 64.77 0)
+			(at 207.01 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,7 +2726,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 185.42 67.31 0)
+			(at 207.01 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2143,7 +2734,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
-			(at 179.07 68.58 0)
+			(at 200.66 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2152,7 +2743,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 68.58 0)
+			(at 200.66 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2161,7 +2752,7 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer, US symbol"
-			(at 179.07 68.58 0)
+			(at 200.66 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,7 +2848,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 133.35 0)
+		(at 200.66 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2266,7 +2857,7 @@
 		(fields_autoplaced yes)
 		(uuid "1baa2d22-6775-46b0-b93e-b33ea1c20ac9")
 		(property "Reference" "#PWR010"
-			(at 179.07 139.7 0)
+			(at 200.66 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2275,7 +2866,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 138.43 0)
+			(at 200.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +2874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 133.35 0)
+			(at 200.66 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2292,7 +2883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 133.35 0)
+			(at 200.66 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,7 +2892,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 133.35 0)
+			(at 200.66 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,6 +2907,69 @@
 			(project "reflectancesensors"
 				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 196.85 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b061426-233a-48bc-8cd3-b9f00fc0c25c")
+		(property "Reference" "H8"
+			(at 199.39 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 199.644 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 196.85 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 196.85 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "reflectancesensors"
+				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -2388,8 +3042,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Sensor_Optical:BPW40")
+		(at 175.26 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30b4b4f2-3edf-4c48-8aae-7de4122ff67a")
+		(property "Reference" "Q2"
+			(at 176.0093 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BPW40"
+			(at 176.0093 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
+			(at 171.704 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rcscomponents.kiev.ua/datasheets/bpw40.pdf"
+			(at 175.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Phototransistor NPN"
+			(at 175.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25ec24a6-eded-48c4-8ff1-2f995450fe03")
+		)
+		(pin "2"
+			(uuid "74c50a25-d007-4585-8250-5f78c4bc6cc9")
+		)
+		(instances
+			(project "reflectancesensors"
+				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 175.26 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "31b8e07a-a8f4-455e-9fc1-becac4d730f2")
+		(property "Reference" "H6"
+			(at 177.8 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 178.816 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 175.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 175.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "reflectancesensors"
+				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
-		(at 179.07 106.68 0)
+		(at 200.66 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2398,7 +3182,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a90c43e-9ca9-4919-a0e5-14e326f54676")
 		(property "Reference" "#PWR07"
-			(at 179.07 110.49 0)
+			(at 200.66 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,7 +3191,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 179.07 101.6 0)
+			(at 200.66 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,7 +3199,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 106.68 0)
+			(at 200.66 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2424,7 +3208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 106.68 0)
+			(at 200.66 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2433,7 +3217,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 179.07 106.68 0)
+			(at 200.66 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,6 +3432,135 @@
 			(project "reflectancesensors"
 				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d8035f9-7c3b-4f48-ba2e-c2a66230ea03")
+		(property "Reference" "#PWR014"
+			(at 158.75 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d867f0c-adb4-444b-a3f7-7770179ef9c5")
+		)
+		(instances
+			(project "reflectancesensors"
+				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 196.85 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "527a3494-786b-4550-b71c-227e6cccf764")
+		(property "Reference" "H7"
+			(at 199.39 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 199.644 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 196.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 196.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "reflectancesensors"
+				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -2925,7 +3838,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 208.28 35.56 0)
+		(at 219.71 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2934,7 +3847,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a097f0d-975a-471d-8e4e-dc5d5f4b8f49")
 		(property "Reference" "H1"
-			(at 210.82 34.2899 0)
+			(at 222.25 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2943,7 +3856,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 210.82 36.8299 0)
+			(at 222.25 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2952,7 +3865,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 208.28 35.56 0)
+			(at 219.71 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2961,7 +3874,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 35.56 0)
+			(at 219.71 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2970,7 +3883,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 208.28 35.56 0)
+			(at 219.71 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3055,7 +3968,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_Trim_US")
-		(at 179.07 115.57 180)
+		(at 200.66 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3063,7 +3976,7 @@
 		(dnp no)
 		(uuid "8116b717-8300-43d0-a1fa-f2fd728bb498")
 		(property "Reference" "RV2"
-			(at 185.928 112.776 0)
+			(at 207.518 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3071,7 +3984,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 185.928 115.316 0)
+			(at 207.518 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,7 +3992,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
-			(at 179.07 115.57 0)
+			(at 200.66 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3088,7 +4001,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 115.57 0)
+			(at 200.66 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3097,7 +4010,7 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer, US symbol"
-			(at 179.07 115.57 0)
+			(at 200.66 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3124,8 +4037,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 172.72 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5178058-6c1d-4a27-9c51-2e29fe83f1c9")
+		(property "Reference" "H5"
+			(at 175.26 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 175.26 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 172.72 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 172.72 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "reflectancesensors"
+				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 179.07 86.36 0)
+		(at 200.66 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3134,7 +4111,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5f92545-9a96-41a1-b943-4bd61a36a1df")
 		(property "Reference" "#PWR04"
-			(at 179.07 92.71 0)
+			(at 200.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,7 +4120,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 91.44 0)
+			(at 200.66 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,7 +4128,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 86.36 0)
+			(at 200.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3160,7 +4137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 86.36 0)
+			(at 200.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3169,7 +4146,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 86.36 0)
+			(at 200.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3191,16 +4168,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 233.68 49.53 0)
+		(at 245.11 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a82c5f85-349b-42ca-b815-f81d5728e115")
 		(property "Reference" "H4"
-			(at 236.22 48.2599 0)
+			(at 247.65 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +4185,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 236.22 50.7999 0)
+			(at 247.904 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +4194,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 233.68 49.53 0)
+			(at 245.11 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +4203,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 49.53 0)
+			(at 245.11 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3236,7 +4212,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 233.68 49.53 0)
+			(at 245.11 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3254,17 +4230,150 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 157.48 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a873cbd0-2800-413b-8975-332afbea2f6f")
+		(property "Reference" "#PWR013"
+			(at 157.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64719a91-3d80-4111-bfc0-08d768c28600")
+		)
+		(instances
+			(project "reflectancesensors"
+				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IR204A")
+		(at 148.59 111.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8e6070c-f64b-42aa-9ecb-6c3fe8a3d6f1")
+		(property "Reference" "D2"
+			(at 149.733 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IR204A"
+			(at 149.733 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
+			(at 148.59 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR204-A.pdf"
+			(at 149.86 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Infrared LED , 3mm LED package"
+			(at 148.59 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "873ad8d9-baa1-45f3-b80d-2bd482455ac6")
+		)
+		(pin "1"
+			(uuid "9a22276e-b1a0-4898-87c3-98941b9fcd06")
+		)
+		(instances
+			(project "reflectancesensors"
+				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 210.82 49.53 0)
+		(at 222.25 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "acacb158-2a03-48b2-98e6-1f56a7651891")
 		(property "Reference" "H3"
-			(at 213.36 48.2599 0)
+			(at 224.79 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3273,7 +4382,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 213.36 50.7999 0)
+			(at 225.552 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3282,7 +4391,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 210.82 49.53 0)
+			(at 222.25 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3291,7 +4400,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 49.53 0)
+			(at 222.25 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3300,7 +4409,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 210.82 49.53 0)
+			(at 222.25 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3378,6 +4487,74 @@
 			(project "reflectancesensors"
 				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IR204A")
+		(at 147.32 62.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0732a0a-11b2-4f0d-85e2-59ac0fc1c667")
+		(property "Reference" "D1"
+			(at 148.463 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IR204A"
+			(at 148.463 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
+			(at 147.32 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR204-A.pdf"
+			(at 148.59 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Infrared LED , 3mm LED package"
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e99d037-c131-469b-b846-1eb72f10f26c")
+		)
+		(pin "1"
+			(uuid "e311419d-91aa-41eb-9c50-8313242ec703")
+		)
+		(instances
+			(project ""
+				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3652,7 +4829,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 179.07 59.69 0)
+		(at 200.66 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3661,7 +4838,7 @@
 		(fields_autoplaced yes)
 		(uuid "cab7a967-0133-4843-b086-3d67d3cfff4a")
 		(property "Reference" "#PWR02"
-			(at 179.07 63.5 0)
+			(at 200.66 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,7 +4847,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 179.07 54.61 0)
+			(at 200.66 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3678,7 +4855,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 59.69 0)
+			(at 200.66 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,7 +4864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 59.69 0)
+			(at 200.66 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,7 +4873,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 179.07 59.69 0)
+			(at 200.66 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,6 +4888,72 @@
 			(project ""
 				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb57203f-ac5e-4b50-9c84-19b07246c840")
+		(property "Reference" "#PWR015"
+			(at 187.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72028f2a-9fe2-4465-891e-f3196b5e518e")
+		)
+		(instances
+			(project "reflectancesensors"
+				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3853,8 +5096,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 186.69 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e561e3be-9e76-4a84-a0f1-9ab40bfc9334")
+		(property "Reference" "#PWR016"
+			(at 186.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41d2768b-4548-418d-81c6-0fb343850bcf")
+		)
+		(instances
+			(project "reflectancesensors"
+				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 231.14 35.56 0)
+		(at 242.57 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3863,7 +5172,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec2cb876-46ea-4ab8-97e1-c01837f7f163")
 		(property "Reference" "H2"
-			(at 233.68 34.2899 0)
+			(at 245.11 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3872,7 +5181,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 233.68 36.8299 0)
+			(at 245.11 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,7 +5190,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 231.14 35.56 0)
+			(at 242.57 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,7 +5199,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 35.56 0)
+			(at 242.57 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,7 +5208,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 231.14 35.56 0)
+			(at 242.57 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,6 +5220,73 @@
 			(project "reflectancesensors"
 				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Optical:BPW40")
+		(at 176.53 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2ecff65-a383-46ed-92b0-aa99d083d02f")
+		(property "Reference" "Q1"
+			(at 177.2793 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BPW40"
+			(at 177.2793 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
+			(at 172.974 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rcscomponents.kiev.ua/datasheets/bpw40.pdf"
+			(at 176.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Phototransistor NPN"
+			(at 176.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4261e781-97cd-4a3c-84a2-9e8dbf172c6c")
+		)
+		(pin "2"
+			(uuid "72edc8e6-c6df-4d35-88b8-1fd696389726")
+		)
+		(instances
+			(project ""
+				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -3984,7 +5360,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 219.71 125.73 0)
+		(at 241.3 125.73 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3993,7 +5369,7 @@
 		(dnp no)
 		(uuid "f6834565-7013-4cea-9f99-3c38aa1cd6b6")
 		(property "Reference" "J2"
-			(at 220.3451 121.92 90)
+			(at 241.9351 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4003,7 +5379,7 @@
 			)
 		)
 		(property "Value" "Outputs"
-			(at 228.092 124.206 0)
+			(at 249.682 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4012,7 +5388,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 219.71 125.73 0)
+			(at 241.3 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,7 +5397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 125.73 0)
+			(at 241.3 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4030,7 +5406,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 219.71 125.73 0)
+			(at 241.3 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
