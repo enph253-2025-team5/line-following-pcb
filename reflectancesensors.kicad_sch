@@ -2914,7 +2914,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 196.85 39.37 0)
+		(at 250.19 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2922,7 +2922,7 @@
 		(dnp no)
 		(uuid "2b061426-233a-48bc-8cd3-b9f00fc0c25c")
 		(property "Reference" "H8"
-			(at 199.39 38.0999 0)
+			(at 252.73 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,7 +2931,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 199.644 40.894 0)
+			(at 252.984 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +2940,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 196.85 39.37 0)
+			(at 250.19 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +2949,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 39.37 0)
+			(at 250.19 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2958,7 +2958,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 196.85 39.37 0)
+			(at 250.19 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +3043,8 @@
 	)
 	(symbol
 		(lib_id "Sensor_Optical:BPW40")
-		(at 175.26 109.22 270)
+		(at 175.26 109.22 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3051,7 +3052,7 @@
 		(dnp no)
 		(uuid "30b4b4f2-3edf-4c48-8aae-7de4122ff67a")
 		(property "Reference" "Q2"
-			(at 176.0093 100.33 90)
+			(at 174.5107 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3059,7 +3060,7 @@
 			)
 		)
 		(property "Value" "BPW40"
-			(at 176.0093 102.87 90)
+			(at 174.5107 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,7 +3068,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
-			(at 171.704 121.412 0)
+			(at 178.816 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,7 +3111,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 175.26 38.1 0)
+		(at 228.6 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3118,7 +3119,7 @@
 		(dnp no)
 		(uuid "31b8e07a-a8f4-455e-9fc1-becac4d730f2")
 		(property "Reference" "H6"
-			(at 177.8 36.8299 0)
+			(at 231.14 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,7 +3128,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 178.816 39.37 0)
+			(at 232.156 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3136,7 +3137,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 175.26 38.1 0)
+			(at 228.6 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3145,7 +3146,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 38.1 0)
+			(at 228.6 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,7 +3155,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 175.26 38.1 0)
+			(at 228.6 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,6 +3299,74 @@
 			(project ""
 				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:IR204A")
+		(at 147.32 62.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b3a9a71-cdbb-40b0-8fcc-813aa5c00126")
+		(property "Reference" "D1"
+			(at 148.463 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IR204A"
+			(at 148.463 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 147.32 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR204-A.pdf"
+			(at 148.59 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Infrared LED , 3mm LED package"
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "284a7272-bb4b-4825-9177-62192d55939d")
+		)
+		(pin "1"
+			(uuid "3cd9c2ad-6fd7-4994-ab7a-f047ccd251e6")
+		)
+		(instances
+			(project "reflectancesensors"
+				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3505,7 +3574,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 196.85 24.13 0)
+		(at 250.19 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3513,7 +3582,7 @@
 		(dnp no)
 		(uuid "527a3494-786b-4550-b71c-227e6cccf764")
 		(property "Reference" "H7"
-			(at 199.39 22.8599 0)
+			(at 252.73 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,7 +3591,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 199.644 25.654 0)
+			(at 252.984 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3531,7 +3600,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 196.85 24.13 0)
+			(at 250.19 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3540,7 +3609,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 24.13 0)
+			(at 250.19 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3549,7 +3618,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 196.85 24.13 0)
+			(at 250.19 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3837,70 +3906,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 219.71 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a097f0d-975a-471d-8e4e-dc5d5f4b8f49")
-		(property "Reference" "H1"
-			(at 222.25 24.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 222.25 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 219.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 219.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 50.8 76.2 0)
 		(mirror x)
@@ -4038,7 +4043,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 172.72 24.13 0)
+		(at 226.06 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4047,7 +4052,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5178058-6c1d-4a27-9c51-2e29fe83f1c9")
 		(property "Reference" "H5"
-			(at 175.26 22.8599 0)
+			(at 228.6 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4056,7 +4061,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 175.26 25.3999 0)
+			(at 228.6 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4065,7 +4070,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 172.72 24.13 0)
+			(at 226.06 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,7 +4079,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 24.13 0)
+			(at 226.06 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4083,7 +4088,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 172.72 24.13 0)
+			(at 226.06 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4161,69 +4166,6 @@
 			(project ""
 				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 245.11 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "a82c5f85-349b-42ca-b815-f81d5728e115")
-		(property "Reference" "H4"
-			(at 247.65 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 247.904 40.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 245.11 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 245.11 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "reflectancesensors"
-				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -4321,7 +4263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 148.59 107.315 0)
 			(effects
 				(font
@@ -4358,69 +4300,6 @@
 			(project "reflectancesensors"
 				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 222.25 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "acacb158-2a03-48b2-98e6-1f56a7651891")
-		(property "Reference" "H3"
-			(at 224.79 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 225.552 41.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 222.25 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 222.25 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "reflectancesensors"
-				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -4487,74 +4366,6 @@
 			(project "reflectancesensors"
 				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:IR204A")
-		(at 147.32 62.23 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0732a0a-11b2-4f0d-85e2-59ac0fc1c667")
-		(property "Reference" "D1"
-			(at 148.463 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IR204A"
-			(at 148.463 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
-			(at 147.32 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.everlight.com/file/ProductFile/IR204-A.pdf"
-			(at 148.59 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Infrared LED , 3mm LED package"
-			(at 147.32 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2e99d037-c131-469b-b846-1eb72f10f26c")
-		)
-		(pin "1"
-			(uuid "e311419d-91aa-41eb-9c50-8313242ec703")
-		)
-		(instances
-			(project ""
-				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5162,72 +4973,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 242.57 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec2cb876-46ea-4ab8-97e1-c01837f7f163")
-		(property "Reference" "H2"
-			(at 245.11 24.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 245.11 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 242.57 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 242.57 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "reflectancesensors"
-				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Sensor_Optical:BPW40")
-		(at 176.53 59.69 270)
+		(at 176.53 59.69 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5235,7 +4983,7 @@
 		(dnp no)
 		(uuid "f2ecff65-a383-46ed-92b0-aa99d083d02f")
 		(property "Reference" "Q1"
-			(at 177.2793 50.8 90)
+			(at 175.7807 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,7 +4991,7 @@
 			)
 		)
 		(property "Value" "BPW40"
-			(at 177.2793 53.34 90)
+			(at 175.7807 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5251,7 +4999,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
-			(at 172.974 71.882 0)
+			(at 180.086 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
