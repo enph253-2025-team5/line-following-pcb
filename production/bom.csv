@@ -1,9 +1,0 @@
-﻿Designator,Footprint,Quantity,Value,LCSC Part #
-C1,C_Disc_D3.0mm_W2.0mm_P2.50mm,1,100nF,
-C2,CP_Radial_D5.0mm_P2.50mm,1,1uF,
-"D1, D2",LED_D5.0mm,2,IR204A,
-J2,JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal,1,Conn_01x04_Socket,
-"Q1, Q2",LED_D5.0mm_Clear,2,BPW40,
-"R1, R2",R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,2,330,
-"RV1, RV2",Potentiometer_Bourns_3266Y_Vertical,2,100k,
-"U1, U3",Vishay_TCRT5000,2,TCRT5000L,
