@@ -927,6 +927,98 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GS_Virtual:ENPH253_Logo"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Logo"
+				(at 0 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "GS_Virtual:ENPH253_Logo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ENPH 253 Team Logo"
+				(at 0 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "logo team 5 t5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "ENPH253_Logo*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ENPH253_Logo_0_1"
+				(rectangle
+					(start -5.08 1.27)
+					(end 5.08 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ENPH253_Logo_1_1"
+				(text "T5 Logo"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LED:IR204A"
 			(pin_numbers
 				(hide yes)
@@ -2500,6 +2592,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 31.75) (xy 184.15 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b4bdc45-b6b4-4887-b2c0-4550a717aa59")
+	)
+	(wire
+		(pts
 			(xy 85.09 31.75) (xy 71.12 31.75)
 		)
 		(stroke
@@ -2597,16 +2699,6 @@
 			(type default)
 		)
 		(uuid "82cfd67e-0a21-43f1-94a9-45b80911eb62")
-	)
-	(wire
-		(pts
-			(xy 184.15 31.75) (xy 184.15 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93f0a8d8-14e3-499a-afe2-2037501fdb27")
 	)
 	(wire
 		(pts
@@ -2710,7 +2802,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 156.21) (xy 184.15 97.79)
+			(xy 184.15 97.79) (xy 184.15 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3924,6 +4016,69 @@
 		)
 	)
 	(symbol
+		(lib_id "GS_Virtual:ENPH253_Logo")
+		(at 170.18 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a5a616b-7d1b-4f48-b093-29dbf9a61f6a")
+		(property "Reference" "S1"
+			(at 170.18 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Logo"
+			(at 170.18 185.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "GS_Virtual:ENPH253_Logo"
+			(at 170.18 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ENPH 253 Team Logo"
+			(at 170.18 188.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/6ca5ba81-b900-4043-9a89-71bd4e9b2915"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 71.12 40.64 0)
 		(mirror y)
@@ -4461,16 +4616,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 189.23 92.71 0)
+		(at 189.23 95.25 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b2d1f097-c244-4d34-833b-0699aabf7e0e")
 		(property "Reference" "J2"
-			(at 190.5 92.7099 0)
+			(at 190.5 95.2501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4479,7 +4634,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 190.5 95.2499 0)
+			(at 190.5 92.7101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4487,8 +4642,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal"
-			(at 189.23 92.71 0)
+		(property "Footprint" "GS_Connectors:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal"
+			(at 189.23 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,7 +4652,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 92.71 0)
+			(at 189.23 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4506,7 +4661,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 189.23 92.71 0)
+			(at 189.23 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
